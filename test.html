@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="description" content="Cognivue is the first computerized cognitive test cleared by the FDA and was intuitively designed to eliminate testing variables. It identifies changes in brain function that could indicate an impairment using adaptive psychophysics. ">
+
+
+
+</head>
+
+<body>
+  <table id="example" class="display" cellspacing="0" width="100%">
+  </table>
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js'></script>
+
+
+
+  
+
+ <script>
+   var dataSet = [{
+	  "Latitude": 18.00,
+	  "Longitude": 23.00,
+	  "Name": "Pune"
+	}, {
+	  "Latitude": 14.00,
+	  "Longitude": 24.00,
+	  "Name": "Mumbai"
+	}, {
+	  "Latitude": 34.004654,
+	  "Longitude": -4.005465,
+	  "Name": "Delhi"
+	}, {
+	  "Latitude": 23.004564,
+	  "Longitude": 23.007897,
+	  "Name": "Jaipur"
+	}];
+	
+	var my_columns = [];
+	
+	$.each( dataSet[0], function( key, value ) {
+			var my_item = {};
+			my_item.data = key;
+			my_item.title = key;
+			my_columns.push(my_item);
+	});
+	
+	$(document).ready(function() {
+	  $('#example').DataTable({
+	    data: dataSet,
+	    "columns": my_columns
+	  });
+	});
+ </script>
+
+</body>
+
+</html>

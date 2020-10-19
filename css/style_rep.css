@@ -1,0 +1,204 @@
+/* Media Query for Mobile Devices */ 
+@media (max-width: 480px) { 
+    body { 
+        background-color: red; 
+    } 
+    .map-left-container{
+        width: 100%;
+        padding: 0% 1% 2% 3%;
+
+    }
+    .map-right-container {
+        width: 100%;  
+    }
+    .map-left-below-container {
+        display: none;  
+    }
+    #map {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        position: relative;
+        z-index: 200;
+    }
+
+    .map-right-container .findAD {
+        position: initial;
+        z-index: 10000;
+        right: 54px;
+        bottom: 10px;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px 10px 10px 22%;
+    }
+    #map {
+        position: relative;
+    }
+    .modal-content {
+        width: 18rem;
+    }
+} 
+  
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) { 
+    body { 
+        background-color: yellow; 
+    } 
+    .map-left-container{
+        width: 35%;
+        padding: 0% 1% 0% 3%;
+
+    }
+    .map-right-container {
+        width: 61%;  
+    }
+    .map-left-below-container {
+        display: block;  
+    }
+    #map {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        z-index: 200;
+    }
+
+    .map-right-container .findAD {
+        position: fixed;
+        z-index: 10000;
+        right: 54px;
+        bottom: 10px;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 10px;
+        margin: 0;
+    }
+    #map {
+        position: absolute;
+    }
+    .modal-content {
+        width: 30rem;
+    }
+} 
+  
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ 
+    body { 
+        background-color: blue; 
+    } 
+    .map-left-container{
+        width: 35%;
+        padding: 0% 1% 0% 3%;
+
+    }
+    .map-right-container {
+        width: 61%;  
+    }
+    .map-left-below-container {
+        display: block;  
+    }
+    #map {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        z-index: 200;
+    }
+
+    .map-right-container .findAD {
+        position: fixed;
+        z-index: 10000;
+        right: 54px;
+        bottom: 10px;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 10px;
+        margin: 0;
+    }
+    #map {
+        position: absolute;
+    }
+    .modal-content {
+        width: 30rem;
+    }
+} 
+  
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px){ 
+    body { 
+        background-color: green; 
+    } 
+    .map-left-container {
+        width: 16%;
+        padding: 0% 1% 0% 3%;
+
+    }
+    
+    .map-right-container {
+        width: 80%;
+    }
+    .map-left-below-container {
+        display: block;  
+    }
+    #map {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        z-index: 200;
+    }
+
+    .map-right-container .findAD {
+        position: fixed;
+        z-index: 10000;
+        right: 54px;
+        bottom: 10px;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 10px;
+        margin: 0;
+    }
+    #map {
+        position: absolute;
+    }
+    .modal-content {
+        width: 40rem;
+    }
+} 
+  
+
+
+.map-ear-container{
+min-width: 100% !important;
+}
+
+.map-left-container {
+float: left;
+overflow-y: scroll;
+}
+
+.map-right-container {
+float: left;
+position: relative;
+}
+
+
+.ear-container {
+min-width: 1366px;
+margin: 0 auto;
+width: 100%;
+height: 100%;
+}
+
+.map-ear-container {
+margin: 0 auto;
+width: 100%;
+}
+
+#map {
+height: 100%;
+width: 100%;
+top: 0;
+z-index: 200;
+}

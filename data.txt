@@ -1,0 +1,34 @@
+1. All cognivuePreferred data
+    	https://earbrain-7ace2.firebaseio.com/cognivuePreferred.json
+
+2. cognivuePreferred data by zip
+    https://earbrain-7ace2.firebaseio.com/cognivuePreferred.json?orderBy=”zipText”&equalTo=”14203”&print=pretty
+
+3. cognivuePreferred data by State
+    https://earbrain-7ace2.firebaseio.com/cognivuePreferred.json?orderBy=”stateProvince”&equalTo=”ME”&print=pretty
+
+
+4. USZipCode Latitude And Longitude
+    https://earbrain-7ace2.firebaseio.com/usZipCodeLatitudeAndLongitude.json
+
+5. USZipCodeLatitudeAndLongitude by ZipCode
+   https://earbrain-7ace2.firebaseio.com/usZipCodeLatitudeAndLongitude.json?orderBy=”zipText”&equalTo=”04359”&print=pretty
+    
+6. USZipCodeLatitudeAndLongitude by ZipCode
+    https://earbrain-7ace2.firebaseio.com/usZipCodeLatitudeAndLongitude.json?orderBy=”stateProvince”&equalTo=”ME”&print=pretty
+
+ 7. EventFindAnAudiologist
+    	https://earbrain-7ace2.firebaseio.com/EventFindAnAudiologist.json
+
+8. EventCognivuePreferred
+    	https://earbrain-7ace2.firebaseio.com/EventCognivuePreferred.json
+
+9. EventOtherAudiologist
+    	https://earbrain-7ace2.firebaseio.com/EventOtherAudiologist.json
+
+10. EventCanNotFindTheAUD
+    	https://earbrain-7ace2.firebaseio.com/EventCanNotFindTheAUD.json
+	
+
+
+
